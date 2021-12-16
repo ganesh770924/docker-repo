@@ -1,1 +1,1 @@
-echo "ganesh"
+print("welcome")
