@@ -8,7 +8,7 @@ pipeline{
         }
         steps{
           sh 'docker build -t jenkinstraining.azurecr.io/sample-docker-image:$BUILD_NUMBER'
-          export DOCKER_CONFIG=\"\$(dirname \ "\$DOCKER_CONFIG\")\"
+          export DOCKER_CONFIG=\"\$(dirname\"\$DOCKER_CONFIG\")\"
         }
       }
     }
